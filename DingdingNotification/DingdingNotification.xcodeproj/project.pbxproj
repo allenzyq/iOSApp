@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18CE867F1F03BD2B007883C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CE867E1F03BD2B007883C7 /* AppDelegate.swift */; };
+		18CE86811F03BD2B007883C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CE86801F03BD2B007883C7 /* ViewController.swift */; };
+		18CE86841F03BD2B007883C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18CE86821F03BD2B007883C7 /* Main.storyboard */; };
+		18CE86861F03BD2B007883C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18CE86851F03BD2B007883C7 /* Assets.xcassets */; };
+		18CE86891F03BD2B007883C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18CE86871F03BD2B007883C7 /* LaunchScreen.storyboard */; };
+		18CE86941F03BD2B007883C7 /* DingdingNotificationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CE86931F03BD2B007883C7 /* DingdingNotificationTests.swift */; };
+		18CE869F1F03BD2B007883C7 /* DingdingNotificationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CE869E1F03BD2B007883C7 /* DingdingNotificationUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18CE86901F03BD2B007883C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18CE86731F03BD2B007883C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18CE867A1F03BD2B007883C7;
+			remoteInfo = DingdingNotification;
+		};
+		18CE869B1F03BD2B007883C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18CE86731F03BD2B007883C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18CE867A1F03BD2B007883C7;
+			remoteInfo = DingdingNotification;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18CE867B1F03BD2B007883C7 /* DingdingNotification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DingdingNotification.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18CE867E1F03BD2B007883C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18CE86801F03BD2B007883C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18CE86831F03BD2B007883C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18CE86851F03BD2B007883C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18CE86881F03BD2B007883C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18CE868A1F03BD2B007883C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18CE868F1F03BD2B007883C7 /* DingdingNotificationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DingdingNotificationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18CE86931F03BD2B007883C7 /* DingdingNotificationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DingdingNotificationTests.swift; sourceTree = "<group>"; };
+		18CE86951F03BD2B007883C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18CE869A1F03BD2B007883C7 /* DingdingNotificationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DingdingNotificationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18CE869E1F03BD2B007883C7 /* DingdingNotificationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DingdingNotificationUITests.swift; sourceTree = "<group>"; };
+		18CE86A01F03BD2B007883C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18CE86781F03BD2B007883C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CE868C1F03BD2B007883C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CE86971F03BD2B007883C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18CE86721F03BD2B007883C7 = {
+			isa = PBXGroup;
+			children = (
+				18CE867D1F03BD2B007883C7 /* DingdingNotification */,
+				18CE86921F03BD2B007883C7 /* DingdingNotificationTests */,
+				18CE869D1F03BD2B007883C7 /* DingdingNotificationUITests */,
+				18CE867C1F03BD2B007883C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18CE867C1F03BD2B007883C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18CE867B1F03BD2B007883C7 /* DingdingNotification.app */,
+				18CE868F1F03BD2B007883C7 /* DingdingNotificationTests.xctest */,
+				18CE869A1F03BD2B007883C7 /* DingdingNotificationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18CE867D1F03BD2B007883C7 /* DingdingNotification */ = {
+			isa = PBXGroup;
+			children = (
+				18CE867E1F03BD2B007883C7 /* AppDelegate.swift */,
+				18CE86801F03BD2B007883C7 /* ViewController.swift */,
+				18CE86821F03BD2B007883C7 /* Main.storyboard */,
+				18CE86851F03BD2B007883C7 /* Assets.xcassets */,
+				18CE86871F03BD2B007883C7 /* LaunchScreen.storyboard */,
+				18CE868A1F03BD2B007883C7 /* Info.plist */,
+			);
+			path = DingdingNotification;
+			sourceTree = "<group>";
+		};
+		18CE86921F03BD2B007883C7 /* DingdingNotificationTests */ = {
+			isa = PBXGroup;
+			children = (
+				18CE86931F03BD2B007883C7 /* DingdingNotificationTests.swift */,
+				18CE86951F03BD2B007883C7 /* Info.plist */,
+			);
+			path = DingdingNotificationTests;
+			sourceTree = "<group>";
+		};
+		18CE869D1F03BD2B007883C7 /* DingdingNotificationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18CE869E1F03BD2B007883C7 /* DingdingNotificationUITests.swift */,
+				18CE86A01F03BD2B007883C7 /* Info.plist */,
+			);
+			path = DingdingNotificationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18CE867A1F03BD2B007883C7 /* DingdingNotification */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18CE86A31F03BD2B007883C7 /* Build configuration list for PBXNativeTarget "DingdingNotification" */;
+			buildPhases = (
+				18CE86771F03BD2B007883C7 /* Sources */,
+				18CE86781F03BD2B007883C7 /* Frameworks */,
+				18CE86791F03BD2B007883C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DingdingNotification;
+			productName = DingdingNotification;
+			productReference = 18CE867B1F03BD2B007883C7 /* DingdingNotification.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18CE868E1F03BD2B007883C7 /* DingdingNotificationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18CE86A61F03BD2B007883C7 /* Build configuration list for PBXNativeTarget "DingdingNotificationTests" */;
+			buildPhases = (
+				18CE868B1F03BD2B007883C7 /* Sources */,
+				18CE868C1F03BD2B007883C7 /* Frameworks */,
+				18CE868D1F03BD2B007883C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18CE86911F03BD2B007883C7 /* PBXTargetDependency */,
+			);
+			name = DingdingNotificationTests;
+			productName = DingdingNotificationTests;
+			productReference = 18CE868F1F03BD2B007883C7 /* DingdingNotificationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18CE86991F03BD2B007883C7 /* DingdingNotificationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18CE86A91F03BD2B007883C7 /* Build configuration list for PBXNativeTarget "DingdingNotificationUITests" */;
+			buildPhases = (
+				18CE86961F03BD2B007883C7 /* Sources */,
+				18CE86971F03BD2B007883C7 /* Frameworks */,
+				18CE86981F03BD2B007883C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18CE869C1F03BD2B007883C7 /* PBXTargetDependency */,
+			);
+			name = DingdingNotificationUITests;
+			productName = DingdingNotificationUITests;
+			productReference = 18CE869A1F03BD2B007883C7 /* DingdingNotificationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18CE86731F03BD2B007883C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = AllenZyq;
+				TargetAttributes = {
+					18CE867A1F03BD2B007883C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4JNAYPV5HN;
+						ProvisioningStyle = Automatic;
+					};
+					18CE868E1F03BD2B007883C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4JNAYPV5HN;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18CE867A1F03BD2B007883C7;
+					};
+					18CE86991F03BD2B007883C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4JNAYPV5HN;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18CE867A1F03BD2B007883C7;
+					};
+				};
+			};
+			buildConfigurationList = 18CE86761F03BD2B007883C7 /* Build configuration list for PBXProject "DingdingNotification" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18CE86721F03BD2B007883C7;
+			productRefGroup = 18CE867C1F03BD2B007883C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18CE867A1F03BD2B007883C7 /* DingdingNotification */,
+				18CE868E1F03BD2B007883C7 /* DingdingNotificationTests */,
+				18CE86991F03BD2B007883C7 /* DingdingNotificationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18CE86791F03BD2B007883C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CE86891F03BD2B007883C7 /* LaunchScreen.storyboard in Resources */,
+				18CE86861F03BD2B007883C7 /* Assets.xcassets in Resources */,
+				18CE86841F03BD2B007883C7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CE868D1F03BD2B007883C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CE86981F03BD2B007883C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18CE86771F03BD2B007883C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CE86811F03BD2B007883C7 /* ViewController.swift in Sources */,
+				18CE867F1F03BD2B007883C7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CE868B1F03BD2B007883C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CE86941F03BD2B007883C7 /* DingdingNotificationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CE86961F03BD2B007883C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CE869F1F03BD2B007883C7 /* DingdingNotificationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18CE86911F03BD2B007883C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18CE867A1F03BD2B007883C7 /* DingdingNotification */;
+			targetProxy = 18CE86901F03BD2B007883C7 /* PBXContainerItemProxy */;
+		};
+		18CE869C1F03BD2B007883C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18CE867A1F03BD2B007883C7 /* DingdingNotification */;
+			targetProxy = 18CE869B1F03BD2B007883C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18CE86821F03BD2B007883C7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18CE86831F03BD2B007883C7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18CE86871F03BD2B007883C7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18CE86881F03BD2B007883C7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18CE86A11F03BD2B007883C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18CE86A21F03BD2B007883C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18CE86A41F03BD2B007883C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4JNAYPV5HN;
+				INFOPLIST_FILE = DingdingNotification/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.allenzyq1314-163.www.DingdingNotification";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		18CE86A51F03BD2B007883C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4JNAYPV5HN;
+				INFOPLIST_FILE = DingdingNotification/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.allenzyq1314-163.www.DingdingNotification";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		18CE86A71F03BD2B007883C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4JNAYPV5HN;
+				INFOPLIST_FILE = DingdingNotificationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.allenzyq1314-163.www.DingdingNotificationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DingdingNotification.app/DingdingNotification";
+			};
+			name = Debug;
+		};
+		18CE86A81F03BD2B007883C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4JNAYPV5HN;
+				INFOPLIST_FILE = DingdingNotificationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.allenzyq1314-163.www.DingdingNotificationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DingdingNotification.app/DingdingNotification";
+			};
+			name = Release;
+		};
+		18CE86AA1F03BD2B007883C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4JNAYPV5HN;
+				INFOPLIST_FILE = DingdingNotificationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.allenzyq1314-163.www.DingdingNotificationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DingdingNotification;
+			};
+			name = Debug;
+		};
+		18CE86AB1F03BD2B007883C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4JNAYPV5HN;
+				INFOPLIST_FILE = DingdingNotificationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.allenzyq1314-163.www.DingdingNotificationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DingdingNotification;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18CE86761F03BD2B007883C7 /* Build configuration list for PBXProject "DingdingNotification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CE86A11F03BD2B007883C7 /* Debug */,
+				18CE86A21F03BD2B007883C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18CE86A31F03BD2B007883C7 /* Build configuration list for PBXNativeTarget "DingdingNotification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CE86A41F03BD2B007883C7 /* Debug */,
+				18CE86A51F03BD2B007883C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18CE86A61F03BD2B007883C7 /* Build configuration list for PBXNativeTarget "DingdingNotificationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CE86A71F03BD2B007883C7 /* Debug */,
+				18CE86A81F03BD2B007883C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18CE86A91F03BD2B007883C7 /* Build configuration list for PBXNativeTarget "DingdingNotificationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CE86AA1F03BD2B007883C7 /* Debug */,
+				18CE86AB1F03BD2B007883C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18CE86731F03BD2B007883C7 /* Project object */;
+}
